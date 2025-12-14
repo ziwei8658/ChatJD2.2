@@ -45,6 +45,9 @@ public class Deleresponse //response module, include random response and jokes
                  statement.toLowerCase().indexOf("thank") >= 0) {
             response = Delerandom.getRandomThanks();
         }
+        else if (statement.indexOf("67") >= 0) {
+            response = "Wdym? \n\n\n67676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767676767";
+        }
         else if (statement.trim().length() == 0) {
             response = "Please say something.";
         }
